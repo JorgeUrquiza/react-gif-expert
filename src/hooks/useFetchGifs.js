@@ -13,7 +13,7 @@ export const useFetchGifs = ( category ) => {
     }
 
     useEffect(() => { // Lo usamos para que no se vuelva a renderizar el componente cada vez que cambia el estado
-    getImages();
+        getImages();
     }, [])
 
  
